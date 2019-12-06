@@ -1,0 +1,33 @@
+{
+    "RN Functional Component": {
+        "prefix": "rnfunc",
+        "body": [
+           "import React from 'react';",
+           "import { View } from 'react-native';\n",
+           
+           "export default function $1() {",
+           " return (",
+             "   <View/>",
+             "  );",
+           "}"
+        ],
+        "description": "Create new functional component"
+    },	
+
+    "RN Class Component": {
+       "prefix": "rnclass",
+       "body": [
+          "import React, { Component } from 'react';",
+          "import { View } from 'react-native';\n",
+          
+          "export default class $1 extends Component {",
+          " render(){",
+          "  return (",
+            "    <View/>",
+            "   );",
+            " }",
+          "}"
+       ],
+       "description": "Create new functional component"
+   }
+}

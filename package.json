@@ -1,0 +1,21 @@
+{
+    "name": "sujeitoprogramador-react-native",
+    "displayName": "SujeitoProgramador React Native",
+    "description": "Create new components",
+    "version": "0.0.1",
+    "publisher": "sujeitoprogramador",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
