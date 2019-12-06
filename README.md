@@ -2,7 +2,7 @@
 
 Conjunto de Snippets ou atalhos para criação de componentes e arquivos pata aplicações em React Native.
 
-O uso desses atalhos vão te dar mais produtividade e agilidade ao desenvolver com React Native.
+Esses Snippets, atalhos vão te dar mais produtividade e agilidade ao desenvolver com React Native.
 
 ## Linguagens Suportadas
 
@@ -17,6 +17,8 @@ O uso desses atalhos vão te dar mais produtividade e agilidade ao desenvolver c
 
 * `rnclass` > Para criar um class component.
 
+* `rnstyled` > Para criar um arquivo com Styled Components.
+
 
 -----------------------------------------------------------------------------------------------------------
 
@@ -28,5 +30,4 @@ Distribuído sob a licença MIT.
 
 * [Acesse nosso site](https://sujeitoprogramador.com)
 
-**SujeitoProgramador :)**
-**Enjoy!**
+**by Sujeito Programador :)**

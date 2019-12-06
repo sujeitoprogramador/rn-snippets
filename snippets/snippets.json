@@ -29,5 +29,15 @@
           "}"
        ],
        "description": "Create new functional component"
-   }
+   },
+
+   "RN Styled Component": {
+      "prefix": "rnstyled",
+      "body": [
+         "import styled from 'styled-components/native';\n",
+         
+         "export const Container = styled.View``;"
+      ],
+      "description": "Create snippet Styled Component"
+  }
 }
