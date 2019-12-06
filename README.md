@@ -11,7 +11,7 @@ O uso desses atalhos vão te dar mais produtividade e agilidade ao desenvolver c
 
 ## Como usar?
 
-\!\[Como usar\]\(https://sujeitoprogramador.com/wp-content/uploads/2019/12/snippet-code.gif\)
+![Como usar](https://sujeitoprogramador.com/wp-content/uploads/2019/12/snippet-code.gif)
 
 * `rnfunc` > Para criar um functional component.
 
