@@ -1,8 +1,8 @@
 {
     "name": "sujeitoprogramador-react-native",
-    "displayName": "Sujeito Programador React Native",
+    "displayName": "Sujeito Programador React Native / React JS",
     "description": "React Native snippets by SujeitoProgramador.",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "publisher": "sujeitoprogramador",
     "engines": {
         "vscode": "^1.40.0"

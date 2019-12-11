@@ -39,5 +39,47 @@
          "export const Container = styled.View``;"
       ],
       "description": "Create snippet Styled Component"
+  },
+
+  "React functional Component": {
+   "prefix": "rfunc",
+   "body": [
+      "import React from 'react';\n",
+      
+      "export default function $1() {",
+      " return (",
+      "   <div>\n",
+      "   </div>",
+      " );",
+      "}"
+   ],
+   "description": "Create React functional component"
+  },
+
+  "React Class component": {
+   "prefix": "rclass",
+   "body": [
+      "import React, { Component } from 'react';\n",
+      
+      "export default class $1 extends Component{",
+      " render(){",
+      "  return (",
+      "    <div>\n",
+      "    </div>",
+      "  );",
+      " }",
+      "}"
+   ],
+   "description": "Create React class component"
+  },
+
+  "React Styled Component": {
+   "prefix": "rstyled",
+   "body": [
+      "import styled from 'styled-components';\n",
+      
+      "export const Container = styled.View``;"
+   ],
+   "description": "Create Styled Component for React JS"
   }
 }

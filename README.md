@@ -13,11 +13,19 @@ Esses Snippets, atalhos vão te dar mais produtividade e agilidade ao desenvolve
 
 ![Como usar](https://sujeitoprogramador.com/wp-content/uploads/2019/12/snippet-code.gif)
 
-* `rnfunc` > Para criar um functional component.
+* `rnfunc` > Para criar um componente functional para o React Native.
 
 * `rnclass` > Para criar um class component.
 
 * `rnstyled` > Para criar um arquivo com Styled Components.
+
+------
+
+* `rfunc` > Para criar um componente functional para o ReactJS.
+
+* `rclass` > Para criar um class componente para o ReactJS.
+
+* `rstyled` > Para criar um arquivo com Styled Components para o React JS.
 
 
 -----------------------------------------------------------------------------------------------------------
