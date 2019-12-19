@@ -27,6 +27,8 @@ Esses Snippets, atalhos vão te dar mais produtividade e agilidade ao desenvolve
 
 * `rstyled` > Para criar um arquivo com Styled Components para o React JS.
 
+* `api` > Cria a estrutura com Axios.
+
 
 -----------------------------------------------------------------------------------------------------------
 

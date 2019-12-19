@@ -5,7 +5,7 @@
            "import React from 'react';",
            "import { View } from 'react-native';\n",
            
-           "export default function $1() {",
+           "export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}() {",
            " return (",
              "   <View/>",
              "  );",
@@ -20,7 +20,7 @@
           "import React, { Component } from 'react';",
           "import { View } from 'react-native';\n",
           
-          "export default class $1 extends Component {",
+          "export default class ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} extends Component {",
           " render(){",
           "  return (",
             "    <View/>",
@@ -46,7 +46,7 @@
    "body": [
       "import React from 'react';\n",
       
-      "export default function $1() {",
+      "export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}() {",
       " return (",
       "   <div>\n",
       "   </div>",
@@ -61,7 +61,7 @@
    "body": [
       "import React, { Component } from 'react';\n",
       
-      "export default class $1 extends Component{",
+      "export default class ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} extends Component{",
       " render(){",
       "  return (",
       "    <div>\n",
@@ -81,5 +81,18 @@
       "export const Container = styled.View``;"
    ],
    "description": "Create Styled Component for React JS"
+  },
+
+  "Api Axios Snippet": {
+   "prefix": "api",
+   "body": [
+      "import axios from 'axios';\n",
+      
+      "const api = axios.create({",
+      " baseURL: '$1'",
+      "});\n",
+      "export default api;"
+   ],
+   "description": "Create Axios Api"
   }
 }
