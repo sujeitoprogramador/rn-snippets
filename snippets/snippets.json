@@ -1,5 +1,6 @@
 {
     "RN Functional Component": {
+        "scope": "javascript,typescript,typescriptreact",
         "prefix": "rnfunc",
         "body": [
            "import React from 'react';",
@@ -15,6 +16,7 @@
     },	
 
     "RN Class Component": {
+       "scope": "javascript,typescript,typescriptreact",
        "prefix": "rnclass",
        "body": [
           "import React, { Component } from 'react';",
@@ -32,6 +34,7 @@
    },
 
    "RN Styled Component": {
+      "scope": "javascript,typescript,typescriptreact",       
       "prefix": "rnstyled",
       "body": [
          "import styled from 'styled-components/native';\n",
@@ -42,6 +45,7 @@
   },
 
   "React functional Component": {
+   "scope": "javascript,typescript,typescriptreact",
    "prefix": "rfunc",
    "body": [
       "import React from 'react';\n",
@@ -57,6 +61,7 @@
   },
 
   "React Class component": {
+   "scope": "javascript,typescript,typescriptreact",      
    "prefix": "rclass",
    "body": [
       "import React, { Component } from 'react';\n",
@@ -74,6 +79,7 @@
   },
 
   "React Styled Component": {
+   "scope": "javascript,typescript,typescriptreact",   
    "prefix": "rstyled",
    "body": [
       "import styled from 'styled-components';\n",
@@ -84,6 +90,7 @@
   },
 
   "Api Axios Snippet": {
+   "scope": "javascript,typescript,typescriptreact",   
    "prefix": "api",
    "body": [
       "import axios from 'axios';\n",
