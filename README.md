@@ -29,6 +29,8 @@ Esses Snippets, atalhos vão te dar mais produtividade e agilidade ao desenvolve
 
 * `api` > Cria a estrutura com Axios.
 
+* `nrc` > Cria a de uma pagina Server Component do Next JS.
+
 
 -----------------------------------------------------------------------------------------------------------
 

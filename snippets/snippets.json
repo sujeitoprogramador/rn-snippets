@@ -1,9 +1,8 @@
 {
     "RN Functional Component": {
-        "scope": "javascript,typescript,typescriptreact",
+        "scope": "javascript,javascriptreact,typescript,typescriptreact,jsx,tsx",
         "prefix": "rnfunc",
         "body": [
-           "import React from 'react';",
            "import { View } from 'react-native';\n",
            
            "export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}() {",
@@ -16,7 +15,7 @@
     },	
 
     "RN Class Component": {
-       "scope": "javascript,typescript,typescriptreact",
+       "scope": "javascript,javascriptreact,typescript,typescriptreact,jsx,tsx",
        "prefix": "rnclass",
        "body": [
           "import React, { Component } from 'react';",
@@ -34,7 +33,7 @@
    },
 
    "RN Styled Component": {
-      "scope": "javascript,typescript,typescriptreact",       
+      "scope": "javascript,javascriptreact,typescript,typescriptreact,jsx,tsx",       
       "prefix": "rnstyled",
       "body": [
          "import styled from 'styled-components/native';\n",
@@ -45,11 +44,9 @@
   },
 
   "React functional Component": {
-   "scope": "javascript,typescript,typescriptreact",
+   "scope": "javascript,javascriptreact,typescript,typescriptreact,jsx,tsx",
    "prefix": "rfunc",
    "body": [
-      "import React from 'react';\n",
-      
       "export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}() {",
       " return (",
       "   <div>\n",
@@ -61,7 +58,7 @@
   },
 
   "React Class component": {
-   "scope": "javascript,typescript,typescriptreact",      
+   "scope": "javascript,javascriptreact,typescript,typescriptreact,jsx,tsx",      
    "prefix": "rclass",
    "body": [
       "import React, { Component } from 'react';\n",
@@ -79,7 +76,7 @@
   },
 
   "React Styled Component": {
-   "scope": "javascript,typescript,typescriptreact",   
+   "scope": "javascript,javascriptreact,typescript,typescriptreact,jsx,tsx",   
    "prefix": "rstyled",
    "body": [
       "import styled from 'styled-components';\n",
@@ -90,7 +87,7 @@
   },
 
   "Api Axios Snippet": {
-   "scope": "javascript,typescript,typescriptreact",   
+   "scope": "javascript,javascriptreact,typescript,typescriptreact,jsx,tsx",   
    "prefix": "api",
    "body": [
       "import axios from 'axios';\n",
@@ -101,5 +98,24 @@
       "export default api;"
    ],
    "description": "Create Axios Api"
+  },
+
+  "Next Server Component": {
+   "scope": "javascript,javascriptreact,typescript,typescriptreact,jsx,tsx",   
+   "prefix": "nrc",
+   "body": [
+      "import type { Metadata } from 'next'\n",
+      "export const metadata: Metadata = {",
+      " title: 'Nome da página'",
+      " description: 'Descrição da página'",
+      "}\n",
+      "export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}() {",
+      " return (",
+      "   <div>\n",
+      "   </div>",
+      " );",
+      "}"
+   ],
+   "description": "Create Next Server Component"
   }
 }
