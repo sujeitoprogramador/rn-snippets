@@ -117,5 +117,31 @@
       "}"
    ],
    "description": "Create Next Server Component"
+  },
+
+  "Api route handler nextjs GET": {
+   "scope": "javascript,javascriptreact,typescript,typescriptreact,jsx,tsx",   
+   "prefix": "nget",
+   "body": [
+      "import { NextResponse } from 'next/server'\n",
+      "export async function GET(request: Request){",
+      "\n",
+      "return NextResponse.json({ message: 'Route created!' })",
+      "}"
+   ],
+   "description": "API Route handler GET Next JS"
+  },
+
+  "Api route handler nextjs POST": {
+   "scope": "javascript,javascriptreact,typescript,typescriptreact,jsx,tsx",   
+   "prefix": "npost",
+   "body": [
+      "export async function POST(request: Request){",
+      "const { ${1} } = await request.json();",
+      "\n",
+      "return NextResponse.json({ message: 'Route post created!' })",
+      "}"
+   ],
+   "description": "API Route handler POST Next JS"
   }
 }

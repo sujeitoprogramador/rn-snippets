@@ -13,13 +13,16 @@ Esses Snippets, atalhos vão te dar mais produtividade e agilidade ao desenvolve
 
 ![Como usar](https://sujeitoprogramador.com/wp-content/uploads/2019/12/snippet-code.gif)
 
+## React Native
+
 * `rnfunc` > Para criar um componente functional para o React Native.
 
 * `rnclass` > Para criar um class component.
 
 * `rnstyled` > Para criar um arquivo com Styled Components.
 
-------
+
+## React JS
 
 * `rfunc` > Para criar um componente functional para o ReactJS.
 
@@ -29,8 +32,13 @@ Esses Snippets, atalhos vão te dar mais produtividade e agilidade ao desenvolve
 
 * `api` > Cria a estrutura com Axios.
 
-* `nrc` > Cria a de uma pagina Server Component do Next JS.
+## Next JS
 
+* `nrc` > Cria componente Server Component Page
+
+* `nget` > Cria estrutura API route GET
+
+* `npost` > Cria estrutura API route POST
 
 -----------------------------------------------------------------------------------------------------------
 
